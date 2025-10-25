@@ -447,6 +447,9 @@ choice
             bool "RGB565"
         config SCREEN_PIXEL_FORMAT_RGB888
             bool "RGB888"
+    config BOARD_TYPE_JC1060P4A1
+        bool "jc1060p4a1"
+
 endchoice
 
 choice ESP_S3_LCD_EV_Board_Version_TYPE

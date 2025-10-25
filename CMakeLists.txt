@@ -6,6 +6,10 @@ cmake_minimum_required(VERSION 3.16)
 
 set(PROJECT_VER "2.0.4")
 
+set(EXTRA_COMPONENT_DIRS
+    ./common_components
+)
+
 # Add this line to disable the specific warning
 add_compile_options(-Wno-missing-field-initializers)
 

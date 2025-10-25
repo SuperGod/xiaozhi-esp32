@@ -1,0 +1,12 @@
+{
+    "target": "esp32p4",
+    "builds": [
+        {
+            "name": "jc1060p4a1",
+            "sdkconfig_append": [
+                "CONFIG_USE_WAKE_WORD_DETECT=y",
+                "CONFIG_USE_AUDIO_PROCESSOR=y"
+            ]
+        }
+    ]
+}
